@@ -11,6 +11,7 @@ chmod +x ~/.local/bin/mini
 ## Troubleshooting
 
 ### mini: command not found
-```
-echo "export [ -d $HOME/.local/bin ] && PATH='$HOME/.local/bin:$PATH'" >> $HOME/.profile
-```
+Add $HOME/.local/bin to your PATH.
+
+### minifetch: command not found
+Just run mini command.
